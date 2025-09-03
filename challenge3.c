@@ -14,7 +14,9 @@ int main() {
         s = s + i;
     }
 
+    int form = n * ( n + 1) / 2 ;
     printf("La somme des %d premiers nombres naturels est : %d\n", n, s);
+        printf("Vérification avec la formule n(n+1)/2 : %d\n", form);
 
     return 0;
 }
